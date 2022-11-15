@@ -9,6 +9,8 @@ function homeOne() {
     homePoints.textContent = hPoints
 }
 
+window.homeOne = homeOne
+
 function homeTwo() {
     hPoints += 2
     homePoints.textContent = hPoints
